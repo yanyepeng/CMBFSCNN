@@ -61,7 +61,7 @@ You can directly run the code by using
 
 ```
 cd examples
-python main.py config
+python main.py 'config'
 ```
 
 You can also modify the configuration file according to your needs.
