@@ -48,7 +48,7 @@ Install the following packages:
 You can install CMBFSCNN by using:
 
 ```
-$ git clone https://github.com/yanyepeng/CMBFSCNN
+$ git clone https://github.com/yanyepeng/CMBFSCNN.git
 $ cd cmbfscnn
 $ python setup.py install
 ```
