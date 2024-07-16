@@ -49,7 +49,7 @@ You can install CMBFSCNN by using:
 
 ```
 $ git clone https://github.com/yanyepeng/CMBFSCNN.git
-$ cd cmbfscnn
+$ cd CMBFSCNN
 $ python setup.py install
 ```
 
