@@ -74,7 +74,7 @@ In script `Tutorial.ipynb`, we provide a demo for use.
 
 The computational process of CMBFSCNN is divided into five steps: 
 
-1) Simulating sky radiation data: We use the [PySM](https://github.com/bthorne93/PySM_public) software package to simulate foreground components, CMB, instrument beam, and white noise. We can simulate a large number of multi-frequency sky maps and divide them into training, validation, and testing sets. In this code, we also provide the computation of NILC noise for CMB polarization, which is smaller than the noise of each frequency band and can reduce the noise level in the CNN output.
+1) Simulating sky radiation data: We use the [PySM](https://github.com/bthorne93/PySM_public) software package to simulate foreground components, CMB, instrument beam, and white noise. We can simulate a large number of multi-frequency sky maps and divide them into training, validation, and testing sets. In this code, we also provide the computation of ILC noise for CMB polarization, which is smaller than the noise of each frequency band and can reduce the noise level in the CNN output.
 
 2)  Data preprocessing: It involves transforming the healpix sky maps into two-dimensional flat sky maps for CNN processing. 
 
